@@ -1,16 +1,27 @@
-# This is a sample Python script.
+from datetime import datetime
 
-# Press Maj+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+maintenant = datetime.now()
+if maintenant.hour < 18:
+    print("Bonjour il est : " + maintenant.strftime("%H:%M:%S"))
+else:
+    print("Bonsoir il est : " + maintenant.strftime("%H:%M:%S"))
+
+x = input("ça va renvoyer ce que vous écrivez a l'envers :")
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def lenvers(phrase, result):
+    if phrase != "":
+        return lenvers(phrase[:-1], result + phrase[-1])
+    else:
+        return result
+
+print(lenvers(x, ""))
+if x == lenvers(x, ""):
+    print("bien dis !")
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+if x == "exit":
+    if maintenant.hour < 18:
+        print("aurevoir il est : " + maintenant.strftime("%H:%M:%S"))
+    else:
+        print("aurevoir il est : " + maintenant.strftime("%H:%M:%S"))
