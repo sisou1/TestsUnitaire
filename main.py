@@ -1,6 +1,6 @@
 
 
-# FAIT AVEC LUCAS ROGARD
+# FAIT AVEC LUCAS ROGARD mais pas trop quand même
 
 
 def print_hi(name):

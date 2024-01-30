@@ -4,5 +4,11 @@ import os
 class DétecteurPalindrome:
     @classmethod
     def détecter(cls, chaîne):
-        return 'Bonjour' + os.linesep + chaîne[::-1]
-    # oui
+        miroir = chaîne[::-1]
+
+        début = ('Bonjour'
+                 + os.linesep
+                 + miroir
+                 + os.linesep)
+
+        return (début + "Bien dit !" if chaîne == miroir else début) + "Au revoir"
