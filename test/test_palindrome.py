@@ -9,6 +9,7 @@ from utilities.langueSpy import LangueSpy
 cas_test_non_palindrome = ['test', 'epsi']
 
 
+
 class PalindromeTest(unittest.TestCase):
     def test_miroir(self):
         # ETANT DONNE une chaîne
