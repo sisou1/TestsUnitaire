@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/Tests Unitaire.iml" filepath="$PROJECT_DIR$/.idea/Tests Unitaire.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/TestsUnitaire-Fabien.iml" filepath="$PROJECT_DIR$/.idea/TestsUnitaire-Fabien.iml" />
+>>>>>>> TestsUnitaire-Fabien/master
     </modules>
   </component>
 </project>
