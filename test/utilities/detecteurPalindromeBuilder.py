@@ -1,5 +1,5 @@
-from detecteurPalindrome import DétecteurPalindrome
-from utilities.langueStub import LangueStub
+from src.detecteurPalindrome import DétecteurPalindrome
+from .langueStub import LangueStub
 
 
 class DétecteurPalindromeBuilder:

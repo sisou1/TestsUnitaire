@@ -1,13 +1,12 @@
 import os
 import unittest
 
-from langueAnglaise import LangueAnglaise
-from langueFrançaise import LangueFrançaise
+from src.langueAnglaise import LangueAnglaise
+from src.langueFrançaise import LangueFrançaise
 from utilities.detecteurPalindromeBuilder import DétecteurPalindromeBuilder
 from utilities.langueSpy import LangueSpy
 
 cas_test_non_palindrome = ['test', 'epsi']
-
 
 
 class PalindromeTest(unittest.TestCase):
